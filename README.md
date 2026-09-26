@@ -1,4 +1,4 @@
-# Amazon ML Challenge 2026 — Auronix Final Pipeline
+# Amazon ML Challenge 2026 — Final Pipeline
 
 ## Final production policy
 
