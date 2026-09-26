@@ -1,0 +1,45 @@
+{
+  "team_name": "Auronix",
+  "version": "FINAL_V10_THRESHOLD",
+  "threshold": 20.945884704589844,
+  "threshold_basis": "old_v7_validation_incremental_exact_top1_sweep",
+  "matching_rows": 1732544,
+  "candidate_pairs_rows": 1732544,
+  "accepted_s2": 1459450,
+  "accepted_s3": 1412005,
+  "empty_source1": 101863,
+  "test_candidates_s2": 25448679,
+  "test_candidates_s3": 44404686,
+  "prospective_holdout_read_during_finalization": false,
+  "test_ground_truth_used": false,
+  "external_lookup_used": false,
+  "final_holdout_tuned": false,
+  "validator": "PASS",
+  "model_features": [
+    "name_similarity",
+    "address_similarity",
+    "name_exact",
+    "address_exact",
+    "country_exact",
+    "name_length_ratio",
+    "address_length_ratio",
+    "evidence_rows",
+    "evidence_file_count",
+    "exact_key_count",
+    "base_score",
+    "log_base_rank",
+    "name_x_address",
+    "name_minus_address",
+    "similarity_mean",
+    "similarity_min",
+    "exact_field_count"
+  ],
+  "candidate_source": {
+    "s2": "/Users/harikeshshukla/mla/candidate_output_final_v6/test_candidates_s1_s2.parquet",
+    "s3": "/Users/harikeshshukla/mla/candidate_output_final_v6/test_candidates_s1_s3.parquet"
+  },
+  "scored_source": {
+    "s2": "/Users/harikeshshukla/mla/candidate_output_final_v6/test_scored_s1_s2.parquet",
+    "s3": "/Users/harikeshshukla/mla/candidate_output_final_v6/test_scored_s1_s3.parquet"
+  }
+}

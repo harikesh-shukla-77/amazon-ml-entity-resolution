@@ -1,0 +1,10 @@
+duckdb==1.5.5
+numpy==2.3.2
+pandas==3.0.6
+pyarrow==25.0.1
+RapidFuzz==3.14.6
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+cloudpickle==3.1.2
+Unidecode==1.4.0
