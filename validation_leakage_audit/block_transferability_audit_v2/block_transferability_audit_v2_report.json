@@ -1,0 +1,995 @@
+{
+  "version": "BLOCK_TRANSFERABILITY_AUDIT_V2",
+  "parameters": {
+    "max_bucket_size": 100,
+    "block_count": 15
+  },
+  "old_validation": {
+    "s1_entities": 441094,
+    "targets": {
+      "S2": {
+        "gt_total": 739151,
+        "baseline_covered": 477489,
+        "baseline_missing": 261662,
+        "blocks": [
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "estimated_pairs": 3472534,
+            "gt_covered_by_block": 277589,
+            "new_gt_vs_baseline": 35976,
+            "new_gt_per_million_pairs": 10360.157740716146
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "estimated_pairs": 6653465,
+            "gt_covered_by_block": 150063,
+            "new_gt_vs_baseline": 33551,
+            "new_gt_per_million_pairs": 5042.635679303941
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "estimated_pairs": 2202277,
+            "gt_covered_by_block": 247233,
+            "new_gt_vs_baseline": 32561,
+            "new_gt_per_million_pairs": 14785.151913224357
+          },
+          {
+            "block": "name_f3_addr_f2",
+            "estimated_pairs": 7809110,
+            "gt_covered_by_block": 246352,
+            "new_gt_vs_baseline": 30348,
+            "new_gt_per_million_pairs": 3886.230313057442
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "estimated_pairs": 1724186,
+            "gt_covered_by_block": 269660,
+            "new_gt_vs_baseline": 29696,
+            "new_gt_per_million_pairs": 17223.199817189095
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "estimated_pairs": 1487570,
+            "gt_covered_by_block": 236377,
+            "new_gt_vs_baseline": 25699,
+            "new_gt_per_million_pairs": 17275.8256754304
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "estimated_pairs": 5065494,
+            "gt_covered_by_block": 150582,
+            "new_gt_vs_baseline": 20738,
+            "new_gt_per_million_pairs": 4093.9738552646595
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "estimated_pairs": 6496415,
+            "gt_covered_by_block": 151051,
+            "new_gt_vs_baseline": 18791,
+            "new_gt_per_million_pairs": 2892.518412078046
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "estimated_pairs": 5437041,
+            "gt_covered_by_block": 185407,
+            "new_gt_vs_baseline": 16697,
+            "new_gt_per_million_pairs": 3070.9718760627334
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "estimated_pairs": 6015075,
+            "gt_covered_by_block": 160873,
+            "new_gt_vs_baseline": 14584,
+            "new_gt_per_million_pairs": 2424.574922174703
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "estimated_pairs": 4556969,
+            "gt_covered_by_block": 126123,
+            "new_gt_vs_baseline": 11524,
+            "new_gt_per_million_pairs": 2528.87390719577
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "estimated_pairs": 3232618,
+            "gt_covered_by_block": 90012,
+            "new_gt_vs_baseline": 9586,
+            "new_gt_per_million_pairs": 2965.398324206572
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "estimated_pairs": 4139924,
+            "gt_covered_by_block": 107573,
+            "new_gt_vs_baseline": 8625,
+            "new_gt_per_million_pairs": 2083.37157880193
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "estimated_pairs": 3432710,
+            "gt_covered_by_block": 350214,
+            "new_gt_vs_baseline": 8183,
+            "new_gt_per_million_pairs": 2383.830850843794
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "estimated_pairs": 1120510,
+            "gt_covered_by_block": 344672,
+            "new_gt_vs_baseline": 4817,
+            "new_gt_per_million_pairs": 4298.935306244478
+          }
+        ]
+      },
+      "S3": {
+        "gt_total": 787926,
+        "baseline_covered": 499069,
+        "baseline_missing": 288857,
+        "blocks": [
+          {
+            "block": "name_f3_addr_f2",
+            "estimated_pairs": 7736118,
+            "gt_covered_by_block": 245743,
+            "new_gt_vs_baseline": 30455,
+            "new_gt_per_million_pairs": 3936.72898991458
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "estimated_pairs": 6346843,
+            "gt_covered_by_block": 148168,
+            "new_gt_vs_baseline": 20759,
+            "new_gt_per_million_pairs": 3270.759966805544
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "estimated_pairs": 5462686,
+            "gt_covered_by_block": 197040,
+            "new_gt_vs_baseline": 17344,
+            "new_gt_per_million_pairs": 3174.9948651634013
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "estimated_pairs": 5962159,
+            "gt_covered_by_block": 169947,
+            "new_gt_vs_baseline": 14901,
+            "new_gt_per_million_pairs": 2499.262431612441
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "estimated_pairs": 4436208,
+            "gt_covered_by_block": 131805,
+            "new_gt_vs_baseline": 11764,
+            "new_gt_per_million_pairs": 2651.814342339223
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "estimated_pairs": 3102054,
+            "gt_covered_by_block": 91908,
+            "new_gt_vs_baseline": 9969,
+            "new_gt_per_million_pairs": 3213.677131345876
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "estimated_pairs": 4119494,
+            "gt_covered_by_block": 114037,
+            "new_gt_vs_baseline": 8778,
+            "new_gt_per_million_pairs": 2130.8442250431726
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "estimated_pairs": 3463005,
+            "gt_covered_by_block": 363610,
+            "new_gt_vs_baseline": 8162,
+            "new_gt_per_million_pairs": 2356.912565820725
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "estimated_pairs": 1274331,
+            "gt_covered_by_block": 364331,
+            "new_gt_vs_baseline": 5693,
+            "new_gt_per_million_pairs": 4467.442132381619
+          },
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "estimated_pairs": 1581492,
+            "gt_covered_by_block": 25038,
+            "new_gt_vs_baseline": 3458,
+            "new_gt_per_million_pairs": 2186.5428342350137
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "estimated_pairs": 1064573,
+            "gt_covered_by_block": 25259,
+            "new_gt_vs_baseline": 3357,
+            "new_gt_per_million_pairs": 3153.376987768805
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "estimated_pairs": 3047989,
+            "gt_covered_by_block": 9000,
+            "new_gt_vs_baseline": 1097,
+            "new_gt_per_million_pairs": 359.9094353686972
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "estimated_pairs": 1114576,
+            "gt_covered_by_block": 13207,
+            "new_gt_vs_baseline": 616,
+            "new_gt_per_million_pairs": 552.67653349794
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "estimated_pairs": 884507,
+            "gt_covered_by_block": 9190,
+            "new_gt_vs_baseline": 589,
+            "new_gt_per_million_pairs": 665.9076751229782
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "estimated_pairs": 738143,
+            "gt_covered_by_block": 12489,
+            "new_gt_vs_baseline": 467,
+            "new_gt_per_million_pairs": 632.6687376294295
+          }
+        ]
+      }
+    }
+  },
+  "fresh_confirmation": {
+    "s1_entities": 125814,
+    "targets": {
+      "S2": {
+        "gt_total": 210303,
+        "baseline_covered": 136212,
+        "baseline_missing": 74091,
+        "blocks": [
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "estimated_pairs": 992852,
+            "gt_covered_by_block": 79054,
+            "new_gt_vs_baseline": 10243,
+            "new_gt_per_million_pairs": 10316.74408673196
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "estimated_pairs": 1893780,
+            "gt_covered_by_block": 42790,
+            "new_gt_vs_baseline": 9581,
+            "new_gt_per_million_pairs": 5059.193781748672
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "estimated_pairs": 631325,
+            "gt_covered_by_block": 70572,
+            "new_gt_vs_baseline": 9168,
+            "new_gt_per_million_pairs": 14521.838989426999
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "estimated_pairs": 489010,
+            "gt_covered_by_block": 76898,
+            "new_gt_vs_baseline": 8562,
+            "new_gt_per_million_pairs": 17508.844399910024
+          },
+          {
+            "block": "name_f3_addr_f2",
+            "estimated_pairs": 2230165,
+            "gt_covered_by_block": 69896,
+            "new_gt_vs_baseline": 8551,
+            "new_gt_per_million_pairs": 3834.245448206747
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "estimated_pairs": 422222,
+            "gt_covered_by_block": 67620,
+            "new_gt_vs_baseline": 7355,
+            "new_gt_per_million_pairs": 17419.74601039264
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "estimated_pairs": 1456684,
+            "gt_covered_by_block": 42614,
+            "new_gt_vs_baseline": 5730,
+            "new_gt_per_million_pairs": 3933.5916368958538
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "estimated_pairs": 1843931,
+            "gt_covered_by_block": 43107,
+            "new_gt_vs_baseline": 5380,
+            "new_gt_per_million_pairs": 2917.6796745648294
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "estimated_pairs": 1558262,
+            "gt_covered_by_block": 52863,
+            "new_gt_vs_baseline": 4619,
+            "new_gt_per_million_pairs": 2964.1998585603706
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "estimated_pairs": 1729452,
+            "gt_covered_by_block": 46094,
+            "new_gt_vs_baseline": 4067,
+            "new_gt_per_million_pairs": 2351.6119556946364
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "estimated_pairs": 1301554,
+            "gt_covered_by_block": 36254,
+            "new_gt_vs_baseline": 3270,
+            "new_gt_per_million_pairs": 2512.3813533668217
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "estimated_pairs": 908572,
+            "gt_covered_by_block": 25878,
+            "new_gt_vs_baseline": 2726,
+            "new_gt_per_million_pairs": 3000.312578419762
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "estimated_pairs": 1186281,
+            "gt_covered_by_block": 31040,
+            "new_gt_vs_baseline": 2428,
+            "new_gt_per_million_pairs": 2046.7326038265808
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "estimated_pairs": 983522,
+            "gt_covered_by_block": 99421,
+            "new_gt_vs_baseline": 2379,
+            "new_gt_per_million_pairs": 2418.8579411543415
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "estimated_pairs": 319112,
+            "gt_covered_by_block": 97801,
+            "new_gt_vs_baseline": 1349,
+            "new_gt_per_million_pairs": 4227.355912657625
+          }
+        ]
+      },
+      "S3": {
+        "gt_total": 224631,
+        "baseline_covered": 142084,
+        "baseline_missing": 82547,
+        "blocks": [
+          {
+            "block": "name_f3_addr_f2",
+            "estimated_pairs": 2202068,
+            "gt_covered_by_block": 69927,
+            "new_gt_vs_baseline": 8604,
+            "new_gt_per_million_pairs": 3907.236288797621
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "estimated_pairs": 1800051,
+            "gt_covered_by_block": 42172,
+            "new_gt_vs_baseline": 5774,
+            "new_gt_per_million_pairs": 3207.6868933158007
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "estimated_pairs": 1553129,
+            "gt_covered_by_block": 55879,
+            "new_gt_vs_baseline": 5005,
+            "new_gt_per_million_pairs": 3222.5269118019173
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "estimated_pairs": 1705195,
+            "gt_covered_by_block": 48219,
+            "new_gt_vs_baseline": 4362,
+            "new_gt_per_million_pairs": 2558.065206618598
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "estimated_pairs": 1265181,
+            "gt_covered_by_block": 37658,
+            "new_gt_vs_baseline": 3536,
+            "new_gt_per_million_pairs": 2794.8570204579423
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "estimated_pairs": 869491,
+            "gt_covered_by_block": 26391,
+            "new_gt_vs_baseline": 2963,
+            "new_gt_per_million_pairs": 3407.7408506816055
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "estimated_pairs": 1179974,
+            "gt_covered_by_block": 32545,
+            "new_gt_vs_baseline": 2670,
+            "new_gt_per_million_pairs": 2262.761721868448
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "estimated_pairs": 988171,
+            "gt_covered_by_block": 103479,
+            "new_gt_vs_baseline": 2230,
+            "new_gt_per_million_pairs": 2256.6944385131724
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "estimated_pairs": 361758,
+            "gt_covered_by_block": 103579,
+            "new_gt_vs_baseline": 1585,
+            "new_gt_per_million_pairs": 4381.382028870129
+          },
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "estimated_pairs": 526655,
+            "gt_covered_by_block": 7276,
+            "new_gt_vs_baseline": 1017,
+            "new_gt_per_million_pairs": 1931.0554347722893
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "estimated_pairs": 352562,
+            "gt_covered_by_block": 7307,
+            "new_gt_vs_baseline": 986,
+            "new_gt_per_million_pairs": 2796.671223784753
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "estimated_pairs": 1289014,
+            "gt_covered_by_block": 2835,
+            "new_gt_vs_baseline": 318,
+            "new_gt_per_million_pairs": 246.70019099870134
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "estimated_pairs": 395103,
+            "gt_covered_by_block": 3902,
+            "new_gt_vs_baseline": 186,
+            "new_gt_per_million_pairs": 470.76331994441955
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "estimated_pairs": 269491,
+            "gt_covered_by_block": 2656,
+            "new_gt_vs_baseline": 167,
+            "new_gt_per_million_pairs": 619.6867427854734
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "estimated_pairs": 249324,
+            "gt_covered_by_block": 3637,
+            "new_gt_vs_baseline": 136,
+            "new_gt_per_million_pairs": 545.4749643034766
+          }
+        ]
+      }
+    }
+  },
+  "old_shortlists": {
+    "S2": [
+      "postal_addr_f3_tail2_name_f1",
+      "name_f2_addr_tail3",
+      "addr_f3_tail3_name_f1",
+      "name_f3_addr_f2",
+      "name_f1_addr_f4_tail2",
+      "addr_f4_tail4_name_f1",
+      "name_f3_addr_tail3_len5",
+      "postal_addr_f2_name_f2"
+    ],
+    "S3": [
+      "name_f3_addr_f2",
+      "postal_addr_f2_name_f2",
+      "name_f4_l2_len5",
+      "name_f3_l2_len5",
+      "name_f3_l2_postal",
+      "postal_name_f3_l1",
+      "name_f2_l3_len5",
+      "num_addr_name_prefix2"
+    ]
+  },
+  "union_prefix_tests": {
+    "OLD": {
+      "S2": {
+        "1": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1"
+          ],
+          "union_gt": 277589,
+          "union_new_gt": 35976
+        },
+        "2": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3"
+          ],
+          "union_gt": 316612,
+          "union_new_gt": 58059
+        },
+        "3": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3",
+            "addr_f3_tail3_name_f1"
+          ],
+          "union_gt": 317755,
+          "union_new_gt": 58617
+        },
+        "4": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3",
+            "addr_f3_tail3_name_f1",
+            "name_f3_addr_f2"
+          ],
+          "union_gt": 361916,
+          "union_new_gt": 66186
+        },
+        "5": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3",
+            "addr_f3_tail3_name_f1",
+            "name_f3_addr_f2",
+            "name_f1_addr_f4_tail2"
+          ],
+          "union_gt": 365217,
+          "union_new_gt": 67069
+        }
+      },
+      "S3": {
+        "1": {
+          "blocks": [
+            "name_f3_addr_f2"
+          ],
+          "union_gt": 245743,
+          "union_new_gt": 30455
+        },
+        "2": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2"
+          ],
+          "union_gt": 261778,
+          "union_new_gt": 34229
+        },
+        "3": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2",
+            "name_f4_l2_len5"
+          ],
+          "union_gt": 369572,
+          "union_new_gt": 47818
+        },
+        "4": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2",
+            "name_f4_l2_len5",
+            "name_f3_l2_len5"
+          ],
+          "union_gt": 370576,
+          "union_new_gt": 48400
+        },
+        "5": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2",
+            "name_f4_l2_len5",
+            "name_f3_l2_len5",
+            "name_f3_l2_postal"
+          ],
+          "union_gt": 376184,
+          "union_new_gt": 50676
+        }
+      }
+    },
+    "FRESH": {
+      "S2": {
+        "1": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1"
+          ],
+          "union_gt": 79054,
+          "union_new_gt": 10243
+        },
+        "2": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3"
+          ],
+          "union_gt": 90137,
+          "union_new_gt": 16518
+        },
+        "3": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3",
+            "addr_f3_tail3_name_f1"
+          ],
+          "union_gt": 90486,
+          "union_new_gt": 16677
+        },
+        "4": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3",
+            "addr_f3_tail3_name_f1",
+            "name_f3_addr_f2"
+          ],
+          "union_gt": 103137,
+          "union_new_gt": 18812
+        },
+        "5": {
+          "blocks": [
+            "postal_addr_f3_tail2_name_f1",
+            "name_f2_addr_tail3",
+            "addr_f3_tail3_name_f1",
+            "name_f3_addr_f2",
+            "name_f1_addr_f4_tail2"
+          ],
+          "union_gt": 104034,
+          "union_new_gt": 19076
+        }
+      },
+      "S3": {
+        "1": {
+          "blocks": [
+            "name_f3_addr_f2"
+          ],
+          "union_gt": 69927,
+          "union_new_gt": 8604
+        },
+        "2": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2"
+          ],
+          "union_gt": 74398,
+          "union_new_gt": 9641
+        },
+        "3": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2",
+            "name_f4_l2_len5"
+          ],
+          "union_gt": 104912,
+          "union_new_gt": 13568
+        },
+        "4": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2",
+            "name_f4_l2_len5",
+            "name_f3_l2_len5"
+          ],
+          "union_gt": 105230,
+          "union_new_gt": 13770
+        },
+        "5": {
+          "blocks": [
+            "name_f3_addr_f2",
+            "postal_addr_f2_name_f2",
+            "name_f4_l2_len5",
+            "name_f3_l2_len5",
+            "name_f3_l2_postal"
+          ],
+          "union_gt": 106881,
+          "union_new_gt": 14445
+        }
+      }
+    }
+  },
+  "transfer_summary": {
+    "S2": [
+      {
+        "block": "postal_addr_f3_tail2_name_f1",
+        "old_new_gt": 35976,
+        "old_pairs": 3472534,
+        "old_efficiency": 10360.157740716146,
+        "fresh_new_gt": 10243,
+        "fresh_pairs": 992852,
+        "fresh_efficiency": 10316.74408673196,
+        "transfer_ratio": 0.28471758950411385
+      },
+      {
+        "block": "name_f2_addr_tail3",
+        "old_new_gt": 33551,
+        "old_pairs": 6653465,
+        "old_efficiency": 5042.635679303941,
+        "fresh_new_gt": 9581,
+        "fresh_pairs": 1893780,
+        "fresh_efficiency": 5059.193781748672,
+        "transfer_ratio": 0.2855652588596465
+      },
+      {
+        "block": "addr_f3_tail3_name_f1",
+        "old_new_gt": 32561,
+        "old_pairs": 2202277,
+        "old_efficiency": 14785.151913224357,
+        "fresh_new_gt": 9168,
+        "fresh_pairs": 631325,
+        "fresh_efficiency": 14521.838989426999,
+        "transfer_ratio": 0.28156383403458124
+      },
+      {
+        "block": "name_f1_addr_f4_tail2",
+        "old_new_gt": 29696,
+        "old_pairs": 1724186,
+        "old_efficiency": 17223.199817189095,
+        "fresh_new_gt": 8562,
+        "fresh_pairs": 489010,
+        "fresh_efficiency": 17508.844399910024,
+        "transfer_ratio": 0.2883216594827586
+      },
+      {
+        "block": "name_f3_addr_f2",
+        "old_new_gt": 30348,
+        "old_pairs": 7809110,
+        "old_efficiency": 3886.230313057442,
+        "fresh_new_gt": 8551,
+        "fresh_pairs": 2230165,
+        "fresh_efficiency": 3834.245448206747,
+        "transfer_ratio": 0.2817648609463556
+      },
+      {
+        "block": "addr_f4_tail4_name_f1",
+        "old_new_gt": 25699,
+        "old_pairs": 1487570,
+        "old_efficiency": 17275.8256754304,
+        "fresh_new_gt": 7355,
+        "fresh_pairs": 422222,
+        "fresh_efficiency": 17419.74601039264,
+        "transfer_ratio": 0.28619790653332816
+      },
+      {
+        "block": "name_f3_addr_tail3_len5",
+        "old_new_gt": 20738,
+        "old_pairs": 5065494,
+        "old_efficiency": 4093.9738552646595,
+        "fresh_new_gt": 5730,
+        "fresh_pairs": 1456684,
+        "fresh_efficiency": 3933.5916368958538,
+        "transfer_ratio": 0.2763043687915903
+      },
+      {
+        "block": "postal_addr_f2_name_f2",
+        "old_new_gt": 18791,
+        "old_pairs": 6496415,
+        "old_efficiency": 2892.518412078046,
+        "fresh_new_gt": 5380,
+        "fresh_pairs": 1843931,
+        "fresh_efficiency": 2917.6796745648294,
+        "transfer_ratio": 0.2863072747591932
+      },
+      {
+        "block": "name_f4_l2_len5",
+        "old_new_gt": 16697,
+        "old_pairs": 5437041,
+        "old_efficiency": 3070.9718760627334,
+        "fresh_new_gt": 4619,
+        "fresh_pairs": 1558262,
+        "fresh_efficiency": 2964.1998585603706,
+        "transfer_ratio": 0.2766365215308139
+      },
+      {
+        "block": "name_f3_l2_len5",
+        "old_new_gt": 14584,
+        "old_pairs": 6015075,
+        "old_efficiency": 2424.574922174703,
+        "fresh_new_gt": 4067,
+        "fresh_pairs": 1729452,
+        "fresh_efficiency": 2351.6119556946364,
+        "transfer_ratio": 0.27886725178277566
+      },
+      {
+        "block": "name_f3_l2_postal",
+        "old_new_gt": 11524,
+        "old_pairs": 4556969,
+        "old_efficiency": 2528.87390719577,
+        "fresh_new_gt": 3270,
+        "fresh_pairs": 1301554,
+        "fresh_efficiency": 2512.3813533668217,
+        "transfer_ratio": 0.28375564040263795
+      },
+      {
+        "block": "postal_name_f3_l1",
+        "old_new_gt": 9586,
+        "old_pairs": 3232618,
+        "old_efficiency": 2965.398324206572,
+        "fresh_new_gt": 2726,
+        "fresh_pairs": 908572,
+        "fresh_efficiency": 3000.312578419762,
+        "transfer_ratio": 0.2843730440225329
+      },
+      {
+        "block": "name_f2_l3_len5",
+        "old_new_gt": 8625,
+        "old_pairs": 4139924,
+        "old_efficiency": 2083.37157880193,
+        "fresh_new_gt": 2428,
+        "fresh_pairs": 1186281,
+        "fresh_efficiency": 2046.7326038265808,
+        "transfer_ratio": 0.28150724637681157
+      },
+      {
+        "block": "num_addr_name_prefix2",
+        "old_new_gt": 8183,
+        "old_pairs": 3432710,
+        "old_efficiency": 2383.830850843794,
+        "fresh_new_gt": 2379,
+        "fresh_pairs": 983522,
+        "fresh_efficiency": 2418.8579411543415,
+        "transfer_ratio": 0.29072467310277406
+      },
+      {
+        "block": "num_addr_name_prefix4",
+        "old_new_gt": 4817,
+        "old_pairs": 1120510,
+        "old_efficiency": 4298.935306244478,
+        "fresh_new_gt": 1349,
+        "fresh_pairs": 319112,
+        "fresh_efficiency": 4227.355912657625,
+        "transfer_ratio": 0.28004982354162344
+      }
+    ],
+    "S3": [
+      {
+        "block": "name_f3_addr_f2",
+        "old_new_gt": 30455,
+        "old_pairs": 7736118,
+        "old_efficiency": 3936.72898991458,
+        "fresh_new_gt": 8604,
+        "fresh_pairs": 2202068,
+        "fresh_efficiency": 3907.236288797621,
+        "transfer_ratio": 0.2825151863405024
+      },
+      {
+        "block": "postal_addr_f2_name_f2",
+        "old_new_gt": 20759,
+        "old_pairs": 6346843,
+        "old_efficiency": 3270.759966805544,
+        "fresh_new_gt": 5774,
+        "fresh_pairs": 1800051,
+        "fresh_efficiency": 3207.6868933158007,
+        "transfer_ratio": 0.27814441928801964
+      },
+      {
+        "block": "name_f4_l2_len5",
+        "old_new_gt": 17344,
+        "old_pairs": 5462686,
+        "old_efficiency": 3174.9948651634013,
+        "fresh_new_gt": 5005,
+        "fresh_pairs": 1553129,
+        "fresh_efficiency": 3222.5269118019173,
+        "transfer_ratio": 0.28857241697416974
+      },
+      {
+        "block": "name_f3_l2_len5",
+        "old_new_gt": 14901,
+        "old_pairs": 5962159,
+        "old_efficiency": 2499.262431612441,
+        "fresh_new_gt": 4362,
+        "fresh_pairs": 1705195,
+        "fresh_efficiency": 2558.065206618598,
+        "transfer_ratio": 0.2927320314072881
+      },
+      {
+        "block": "name_f3_l2_postal",
+        "old_new_gt": 11764,
+        "old_pairs": 4436208,
+        "old_efficiency": 2651.814342339223,
+        "fresh_new_gt": 3536,
+        "fresh_pairs": 1265181,
+        "fresh_efficiency": 2794.8570204579423,
+        "transfer_ratio": 0.30057803468208094
+      },
+      {
+        "block": "postal_name_f3_l1",
+        "old_new_gt": 9969,
+        "old_pairs": 3102054,
+        "old_efficiency": 3213.677131345876,
+        "fresh_new_gt": 2963,
+        "fresh_pairs": 869491,
+        "fresh_efficiency": 3407.7408506816055,
+        "transfer_ratio": 0.2972213862975223
+      },
+      {
+        "block": "name_f2_l3_len5",
+        "old_new_gt": 8778,
+        "old_pairs": 4119494,
+        "old_efficiency": 2130.8442250431726,
+        "fresh_new_gt": 2670,
+        "fresh_pairs": 1179974,
+        "fresh_efficiency": 2262.761721868448,
+        "transfer_ratio": 0.3041695146958305
+      },
+      {
+        "block": "num_addr_name_prefix2",
+        "old_new_gt": 8162,
+        "old_pairs": 3463005,
+        "old_efficiency": 2356.912565820725,
+        "fresh_new_gt": 2230,
+        "fresh_pairs": 988171,
+        "fresh_efficiency": 2256.6944385131724,
+        "transfer_ratio": 0.2732173486890468
+      },
+      {
+        "block": "num_addr_name_prefix4",
+        "old_new_gt": 5693,
+        "old_pairs": 1274331,
+        "old_efficiency": 4467.442132381619,
+        "fresh_new_gt": 1585,
+        "fresh_pairs": 361758,
+        "fresh_efficiency": 4381.382028870129,
+        "transfer_ratio": 0.2784120850166872
+      },
+      {
+        "block": "postal_addr_f3_tail2_name_f1",
+        "old_new_gt": 3458,
+        "old_pairs": 1581492,
+        "old_efficiency": 2186.5428342350137,
+        "fresh_new_gt": 1017,
+        "fresh_pairs": 526655,
+        "fresh_efficiency": 1931.0554347722893,
+        "transfer_ratio": 0.2941006362058994
+      },
+      {
+        "block": "name_f1_addr_f4_tail2",
+        "old_new_gt": 3357,
+        "old_pairs": 1064573,
+        "old_efficiency": 3153.376987768805,
+        "fresh_new_gt": 986,
+        "fresh_pairs": 352562,
+        "fresh_efficiency": 2796.671223784753,
+        "transfer_ratio": 0.29371462615430444
+      },
+      {
+        "block": "name_f2_addr_tail3",
+        "old_new_gt": 1097,
+        "old_pairs": 3047989,
+        "old_efficiency": 359.9094353686972,
+        "fresh_new_gt": 318,
+        "fresh_pairs": 1289014,
+        "fresh_efficiency": 246.70019099870134,
+        "transfer_ratio": 0.28988149498632637
+      },
+      {
+        "block": "addr_f3_tail3_name_f1",
+        "old_new_gt": 616,
+        "old_pairs": 1114576,
+        "old_efficiency": 552.67653349794,
+        "fresh_new_gt": 186,
+        "fresh_pairs": 395103,
+        "fresh_efficiency": 470.76331994441955,
+        "transfer_ratio": 0.30194805194805197
+      },
+      {
+        "block": "name_f3_addr_tail3_len5",
+        "old_new_gt": 589,
+        "old_pairs": 884507,
+        "old_efficiency": 665.9076751229782,
+        "fresh_new_gt": 167,
+        "fresh_pairs": 269491,
+        "fresh_efficiency": 619.6867427854734,
+        "transfer_ratio": 0.2835314091680815
+      },
+      {
+        "block": "addr_f4_tail4_name_f1",
+        "old_new_gt": 467,
+        "old_pairs": 738143,
+        "old_efficiency": 632.6687376294295,
+        "fresh_new_gt": 136,
+        "fresh_pairs": 249324,
+        "fresh_efficiency": 545.4749643034766,
+        "transfer_ratio": 0.291220556745182
+      }
+    ]
+  },
+  "safety": {
+    "final_holdout_gt_read": false,
+    "test_data_read": false,
+    "model_training_run": false,
+    "candidate_materialization_run": false,
+    "final_outputs_modified": false
+  },
+  "elapsed_seconds": 197.224
+}

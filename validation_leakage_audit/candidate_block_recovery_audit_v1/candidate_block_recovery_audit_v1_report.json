@@ -1,0 +1,843 @@
+{
+  "version": "CANDIDATE_BLOCK_RECOVERY_AUDIT_V1",
+  "parameters": {
+    "max_bucket_size": 100,
+    "old_pair_budget": 12000000,
+    "max_blocks_per_target": 3,
+    "min_new_gt": 100
+  },
+  "old_validation": {
+    "s1_entities": 441094,
+    "targets": {
+      "S2": {
+        "ground_truth_pairs": 739151,
+        "baseline_covered_gt": 477489,
+        "baseline_missing_gt": 261662,
+        "blocks_ranked": [
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 3472534,
+            "truth_covered": 277589,
+            "new_gt_vs_baseline": 35976,
+            "new_gt_per_million_pairs": 10360.157740716146,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "known": "new_candidate",
+            "estimated_pairs": 6653465,
+            "truth_covered": 150063,
+            "new_gt_vs_baseline": 33551,
+            "new_gt_per_million_pairs": 5042.635679303941,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 2202277,
+            "truth_covered": 247233,
+            "new_gt_vs_baseline": 32561,
+            "new_gt_per_million_pairs": 14785.151913224357,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_addr_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 7809110,
+            "truth_covered": 246352,
+            "new_gt_vs_baseline": 30348,
+            "new_gt_per_million_pairs": 3886.230313057442,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "known": "new_candidate",
+            "estimated_pairs": 1724186,
+            "truth_covered": 269660,
+            "new_gt_vs_baseline": 29696,
+            "new_gt_per_million_pairs": 17223.199817189095,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 1487570,
+            "truth_covered": 236377,
+            "new_gt_vs_baseline": 25699,
+            "new_gt_per_million_pairs": 17275.8256754304,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 5065494,
+            "truth_covered": 150582,
+            "new_gt_vs_baseline": 20738,
+            "new_gt_per_million_pairs": 4093.9738552646595,
+            "within_budget": true
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 6496415,
+            "truth_covered": 151051,
+            "new_gt_vs_baseline": 18791,
+            "new_gt_per_million_pairs": 2892.518412078046,
+            "within_budget": true
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 5437041,
+            "truth_covered": 185407,
+            "new_gt_vs_baseline": 16697,
+            "new_gt_per_million_pairs": 3070.9718760627334,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 6015075,
+            "truth_covered": 160873,
+            "new_gt_vs_baseline": 14584,
+            "new_gt_per_million_pairs": 2424.574922174703,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 4556969,
+            "truth_covered": 126123,
+            "new_gt_vs_baseline": 11524,
+            "new_gt_per_million_pairs": 2528.87390719577,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_f3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 3379677,
+            "truth_covered": 157729,
+            "new_gt_vs_baseline": 10324,
+            "new_gt_per_million_pairs": 3054.7297863079816,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "known": "new_candidate",
+            "estimated_pairs": 3232618,
+            "truth_covered": 90012,
+            "new_gt_vs_baseline": 9586,
+            "new_gt_per_million_pairs": 2965.398324206572,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 4139924,
+            "truth_covered": 107573,
+            "new_gt_vs_baseline": 8625,
+            "new_gt_per_million_pairs": 2083.37157880193,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "known": "V8_known",
+            "estimated_pairs": 3432710,
+            "truth_covered": 350214,
+            "new_gt_vs_baseline": 8183,
+            "new_gt_per_million_pairs": 2383.830850843794,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 3573117,
+            "truth_covered": 91520,
+            "new_gt_vs_baseline": 7162,
+            "new_gt_per_million_pairs": 2004.4123939966141,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f2_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 3200770,
+            "truth_covered": 70819,
+            "new_gt_vs_baseline": 5862,
+            "new_gt_per_million_pairs": 1831.434311118887,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "known": "new_candidate",
+            "estimated_pairs": 1120510,
+            "truth_covered": 344672,
+            "new_gt_vs_baseline": 4817,
+            "new_gt_per_million_pairs": 4298.935306244478,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_f1_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 2340984,
+            "truth_covered": 164132,
+            "new_gt_vs_baseline": 3516,
+            "new_gt_per_million_pairs": 1501.93252068361,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix3",
+            "known": "V9.1_known",
+            "estimated_pairs": 1589606,
+            "truth_covered": 351238,
+            "new_gt_vs_baseline": 3186,
+            "new_gt_per_million_pairs": 2004.270240550174,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 807742,
+            "truth_covered": 26966,
+            "new_gt_vs_baseline": 1105,
+            "new_gt_per_million_pairs": 1368.0110728425661,
+            "within_budget": true
+          }
+        ],
+        "selected_blocks_old": [
+          "addr_f4_tail4_name_f1",
+          "name_f1_addr_f4_tail2",
+          "addr_f3_tail3_name_f1"
+        ],
+        "selected_union_gt": 283902,
+        "selected_union_new_gt": 37468,
+        "selected_union_cost_budget": 5414033
+      },
+      "S3": {
+        "ground_truth_pairs": 787926,
+        "baseline_covered_gt": 499069,
+        "baseline_missing_gt": 288857,
+        "blocks_ranked": [
+          {
+            "block": "name_f3_addr_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 7736118,
+            "truth_covered": 245743,
+            "new_gt_vs_baseline": 30455,
+            "new_gt_per_million_pairs": 3936.72898991458,
+            "within_budget": true
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 6346843,
+            "truth_covered": 148168,
+            "new_gt_vs_baseline": 20759,
+            "new_gt_per_million_pairs": 3270.759966805544,
+            "within_budget": true
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 5462686,
+            "truth_covered": 197040,
+            "new_gt_vs_baseline": 17344,
+            "new_gt_per_million_pairs": 3174.9948651634013,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 5962159,
+            "truth_covered": 169947,
+            "new_gt_vs_baseline": 14901,
+            "new_gt_per_million_pairs": 2499.262431612441,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 4436208,
+            "truth_covered": 131805,
+            "new_gt_vs_baseline": 11764,
+            "new_gt_per_million_pairs": 2651.814342339223,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "known": "new_candidate",
+            "estimated_pairs": 3102054,
+            "truth_covered": 91908,
+            "new_gt_vs_baseline": 9969,
+            "new_gt_per_million_pairs": 3213.677131345876,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 4119494,
+            "truth_covered": 114037,
+            "new_gt_vs_baseline": 8778,
+            "new_gt_per_million_pairs": 2130.8442250431726,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "known": "V8_known",
+            "estimated_pairs": 3463005,
+            "truth_covered": 363610,
+            "new_gt_vs_baseline": 8162,
+            "new_gt_per_million_pairs": 2356.912565820725,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 3561656,
+            "truth_covered": 95866,
+            "new_gt_vs_baseline": 7100,
+            "new_gt_per_million_pairs": 1993.454730046922,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f2_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 3122765,
+            "truth_covered": 72901,
+            "new_gt_vs_baseline": 5735,
+            "new_gt_per_million_pairs": 1836.5134744369172,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "known": "new_candidate",
+            "estimated_pairs": 1274331,
+            "truth_covered": 364331,
+            "new_gt_vs_baseline": 5693,
+            "new_gt_per_million_pairs": 4467.442132381619,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_f3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 2803702,
+            "truth_covered": 78871,
+            "new_gt_vs_baseline": 5690,
+            "new_gt_per_million_pairs": 2029.4596216002985,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_f1_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 2405621,
+            "truth_covered": 180012,
+            "new_gt_vs_baseline": 5601,
+            "new_gt_per_million_pairs": 2328.296934554529,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix3",
+            "known": "V9.1_known",
+            "estimated_pairs": 1720791,
+            "truth_covered": 368433,
+            "new_gt_vs_baseline": 3596,
+            "new_gt_per_million_pairs": 2089.7366385575006,
+            "within_budget": true
+          },
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 1581492,
+            "truth_covered": 25038,
+            "new_gt_vs_baseline": 3458,
+            "new_gt_per_million_pairs": 2186.5428342350137,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "known": "new_candidate",
+            "estimated_pairs": 1064573,
+            "truth_covered": 25259,
+            "new_gt_vs_baseline": 3357,
+            "new_gt_per_million_pairs": 3153.376987768805,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "known": "new_candidate",
+            "estimated_pairs": 3047989,
+            "truth_covered": 9000,
+            "new_gt_vs_baseline": 1097,
+            "new_gt_per_million_pairs": 359.9094353686972,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 697009,
+            "truth_covered": 27288,
+            "new_gt_vs_baseline": 1039,
+            "new_gt_per_million_pairs": 1490.655070451027,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 1114576,
+            "truth_covered": 13207,
+            "new_gt_vs_baseline": 616,
+            "new_gt_per_million_pairs": 552.67653349794,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 884507,
+            "truth_covered": 9190,
+            "new_gt_vs_baseline": 589,
+            "new_gt_per_million_pairs": 665.9076751229782,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 738143,
+            "truth_covered": 12489,
+            "new_gt_vs_baseline": 467,
+            "new_gt_per_million_pairs": 632.6687376294295,
+            "within_budget": true
+          }
+        ],
+        "selected_blocks_old": [
+          "num_addr_name_prefix4",
+          "name_f3_addr_f2",
+          "name_f1_addr_f4_tail2"
+        ],
+        "selected_union_gt": 422266,
+        "selected_union_new_gt": 34439,
+        "selected_union_cost_budget": 10075022
+      }
+    }
+  },
+  "fresh_confirmation": {
+    "s1_entities": 125814,
+    "targets": {
+      "S2": {
+        "ground_truth_pairs": 210303,
+        "baseline_covered_gt": 136212,
+        "baseline_missing_gt": 74091,
+        "blocks_ranked": [
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 992852,
+            "truth_covered": 79054,
+            "new_gt_vs_baseline": 10243,
+            "new_gt_per_million_pairs": 10316.74408673196,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "known": "new_candidate",
+            "estimated_pairs": 1893780,
+            "truth_covered": 42790,
+            "new_gt_vs_baseline": 9581,
+            "new_gt_per_million_pairs": 5059.193781748672,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 631325,
+            "truth_covered": 70572,
+            "new_gt_vs_baseline": 9168,
+            "new_gt_per_million_pairs": 14521.838989426999,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "known": "new_candidate",
+            "estimated_pairs": 489010,
+            "truth_covered": 76898,
+            "new_gt_vs_baseline": 8562,
+            "new_gt_per_million_pairs": 17508.844399910024,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_addr_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 2230165,
+            "truth_covered": 69896,
+            "new_gt_vs_baseline": 8551,
+            "new_gt_per_million_pairs": 3834.245448206747,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 422222,
+            "truth_covered": 67620,
+            "new_gt_vs_baseline": 7355,
+            "new_gt_per_million_pairs": 17419.74601039264,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 1456684,
+            "truth_covered": 42614,
+            "new_gt_vs_baseline": 5730,
+            "new_gt_per_million_pairs": 3933.5916368958538,
+            "within_budget": true
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 1843931,
+            "truth_covered": 43107,
+            "new_gt_vs_baseline": 5380,
+            "new_gt_per_million_pairs": 2917.6796745648294,
+            "within_budget": true
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 1558262,
+            "truth_covered": 52863,
+            "new_gt_vs_baseline": 4619,
+            "new_gt_per_million_pairs": 2964.1998585603706,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 1729452,
+            "truth_covered": 46094,
+            "new_gt_vs_baseline": 4067,
+            "new_gt_per_million_pairs": 2351.6119556946364,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 1301554,
+            "truth_covered": 36254,
+            "new_gt_vs_baseline": 3270,
+            "new_gt_per_million_pairs": 2512.3813533668217,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_f3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 960846,
+            "truth_covered": 44760,
+            "new_gt_vs_baseline": 2909,
+            "new_gt_per_million_pairs": 3027.5403134321214,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "known": "new_candidate",
+            "estimated_pairs": 908572,
+            "truth_covered": 25878,
+            "new_gt_vs_baseline": 2726,
+            "new_gt_per_million_pairs": 3000.312578419762,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 1186281,
+            "truth_covered": 31040,
+            "new_gt_vs_baseline": 2428,
+            "new_gt_per_million_pairs": 2046.7326038265808,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "known": "V8_known",
+            "estimated_pairs": 983522,
+            "truth_covered": 99421,
+            "new_gt_vs_baseline": 2379,
+            "new_gt_per_million_pairs": 2418.8579411543415,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 1025798,
+            "truth_covered": 26301,
+            "new_gt_vs_baseline": 1974,
+            "new_gt_per_million_pairs": 1924.3554773941848,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f2_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 916871,
+            "truth_covered": 20312,
+            "new_gt_vs_baseline": 1675,
+            "new_gt_per_million_pairs": 1826.8655023443864,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "known": "new_candidate",
+            "estimated_pairs": 319112,
+            "truth_covered": 97801,
+            "new_gt_vs_baseline": 1349,
+            "new_gt_per_million_pairs": 4227.355912657625,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_f1_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 661674,
+            "truth_covered": 46255,
+            "new_gt_vs_baseline": 989,
+            "new_gt_per_million_pairs": 1494.6937615804761,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix3",
+            "known": "V9.1_known",
+            "estimated_pairs": 453983,
+            "truth_covered": 99746,
+            "new_gt_vs_baseline": 958,
+            "new_gt_per_million_pairs": 2110.2111753083263,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 233617,
+            "truth_covered": 7754,
+            "new_gt_vs_baseline": 309,
+            "new_gt_per_million_pairs": 1322.6777160908666,
+            "within_budget": true
+          }
+        ],
+        "selected_blocks_old": [
+          "addr_f4_tail4_name_f1",
+          "name_f1_addr_f4_tail2",
+          "addr_f3_tail3_name_f1"
+        ],
+        "selected_union_gt": 0,
+        "selected_union_new_gt": 0,
+        "selected_union_cost_budget": 0
+      },
+      "S3": {
+        "ground_truth_pairs": 224631,
+        "baseline_covered_gt": 142084,
+        "baseline_missing_gt": 82547,
+        "blocks_ranked": [
+          {
+            "block": "name_f3_addr_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 2202068,
+            "truth_covered": 69927,
+            "new_gt_vs_baseline": 8604,
+            "new_gt_per_million_pairs": 3907.236288797621,
+            "within_budget": true
+          },
+          {
+            "block": "postal_addr_f2_name_f2",
+            "known": "new_candidate",
+            "estimated_pairs": 1800051,
+            "truth_covered": 42172,
+            "new_gt_vs_baseline": 5774,
+            "new_gt_per_million_pairs": 3207.6868933158007,
+            "within_budget": true
+          },
+          {
+            "block": "name_f4_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 1553129,
+            "truth_covered": 55879,
+            "new_gt_vs_baseline": 5005,
+            "new_gt_per_million_pairs": 3222.5269118019173,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 1705195,
+            "truth_covered": 48219,
+            "new_gt_vs_baseline": 4362,
+            "new_gt_per_million_pairs": 2558.065206618598,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 1265181,
+            "truth_covered": 37658,
+            "new_gt_vs_baseline": 3536,
+            "new_gt_per_million_pairs": 2794.8570204579423,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f3_l1",
+            "known": "new_candidate",
+            "estimated_pairs": 869491,
+            "truth_covered": 26391,
+            "new_gt_vs_baseline": 2963,
+            "new_gt_per_million_pairs": 3407.7408506816055,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 1179974,
+            "truth_covered": 32545,
+            "new_gt_vs_baseline": 2670,
+            "new_gt_per_million_pairs": 2262.761721868448,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix2",
+            "known": "V8_known",
+            "estimated_pairs": 988171,
+            "truth_covered": 103479,
+            "new_gt_vs_baseline": 2230,
+            "new_gt_per_million_pairs": 2256.6944385131724,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_l3_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 1022495,
+            "truth_covered": 27505,
+            "new_gt_vs_baseline": 2147,
+            "new_gt_per_million_pairs": 2099.7657690257656,
+            "within_budget": true
+          },
+          {
+            "block": "postal_name_f2_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 901594,
+            "truth_covered": 20933,
+            "new_gt_vs_baseline": 1768,
+            "new_gt_per_million_pairs": 1960.971346304434,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_f1_l2",
+            "known": "new_candidate",
+            "estimated_pairs": 678654,
+            "truth_covered": 51151,
+            "new_gt_vs_baseline": 1635,
+            "new_gt_per_million_pairs": 2409.1805249803288,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix4",
+            "known": "new_candidate",
+            "estimated_pairs": 361758,
+            "truth_covered": 103579,
+            "new_gt_vs_baseline": 1585,
+            "new_gt_per_million_pairs": 4381.382028870129,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_f3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 805297,
+            "truth_covered": 22160,
+            "new_gt_vs_baseline": 1496,
+            "new_gt_per_million_pairs": 1857.6997058228208,
+            "within_budget": true
+          },
+          {
+            "block": "postal_addr_f3_tail2_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 526655,
+            "truth_covered": 7276,
+            "new_gt_vs_baseline": 1017,
+            "new_gt_per_million_pairs": 1931.0554347722893,
+            "within_budget": true
+          },
+          {
+            "block": "num_addr_name_prefix3",
+            "known": "V9.1_known",
+            "estimated_pairs": 490450,
+            "truth_covered": 104888,
+            "new_gt_vs_baseline": 1014,
+            "new_gt_per_million_pairs": 2067.4890406769296,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_addr_f4_tail2",
+            "known": "new_candidate",
+            "estimated_pairs": 352562,
+            "truth_covered": 7307,
+            "new_gt_vs_baseline": 986,
+            "new_gt_per_million_pairs": 2796.671223784753,
+            "within_budget": true
+          },
+          {
+            "block": "name_f1_l2_postal",
+            "known": "new_candidate",
+            "estimated_pairs": 197574,
+            "truth_covered": 7785,
+            "new_gt_vs_baseline": 342,
+            "new_gt_per_million_pairs": 1730.9969935315376,
+            "within_budget": true
+          },
+          {
+            "block": "name_f2_addr_tail3",
+            "known": "new_candidate",
+            "estimated_pairs": 1289014,
+            "truth_covered": 2835,
+            "new_gt_vs_baseline": 318,
+            "new_gt_per_million_pairs": 246.70019099870134,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f3_tail3_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 395103,
+            "truth_covered": 3902,
+            "new_gt_vs_baseline": 186,
+            "new_gt_per_million_pairs": 470.76331994441955,
+            "within_budget": true
+          },
+          {
+            "block": "name_f3_addr_tail3_len5",
+            "known": "new_candidate",
+            "estimated_pairs": 269491,
+            "truth_covered": 2656,
+            "new_gt_vs_baseline": 167,
+            "new_gt_per_million_pairs": 619.6867427854734,
+            "within_budget": true
+          },
+          {
+            "block": "addr_f4_tail4_name_f1",
+            "known": "new_candidate",
+            "estimated_pairs": 249324,
+            "truth_covered": 3637,
+            "new_gt_vs_baseline": 136,
+            "new_gt_per_million_pairs": 545.4749643034766,
+            "within_budget": true
+          }
+        ],
+        "selected_blocks_old": [
+          "num_addr_name_prefix4",
+          "name_f3_addr_f2",
+          "name_f1_addr_f4_tail2"
+        ],
+        "selected_union_gt": 120044,
+        "selected_union_new_gt": 9697,
+        "selected_union_cost_budget": 0
+      }
+    }
+  },
+  "safety": {
+    "final_holdout_gt_read": false,
+    "test_data_read": false,
+    "model_training_run": false,
+    "candidate_materialization_run": false,
+    "final_outputs_modified": false
+  },
+  "elapsed_seconds": 144.693
+}

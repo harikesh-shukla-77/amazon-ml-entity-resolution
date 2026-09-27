@@ -1,0 +1,35 @@
+{
+  "version": "F05_JOINT_THRESHOLD_AUDIT_V1",
+  "validation_mod": 5,
+  "validation_s1": 441094,
+  "validation_gt_pairs": 1527077,
+  "current_frozen_policy": {
+    "threshold_s2": 20.945884704589844,
+    "threshold_s3": 20.945884704589844,
+    "macro_f05": 0.6175159039366087,
+    "precision": 0.7759315452884364,
+    "recall": 0.37374539725239786,
+    "predicted": 735552,
+    "tp": 570738,
+    "correctly_empty": 7856,
+    "fp_singletons": 24825
+  },
+  "best_joint_policy": {
+    "threshold_s2": 34.710811614990234,
+    "threshold_s3": 22.125261306762695,
+    "macro_f05": 0.6475223442584165,
+    "precision": 0.843847965038768,
+    "recall": 0.3668210574843312,
+    "predicted": 663821,
+    "tp": 560164,
+    "correctly_empty": 15667,
+    "fp_singletons": 14294
+  },
+  "delta_macro_f05_vs_current": 0.03000644032180777,
+  "final_holdout_read": false,
+  "test_data_read": false,
+  "model_retrained": false,
+  "candidate_generation_run": false,
+  "final_outputs_modified": false,
+  "elapsed_seconds": 17.394
+}
